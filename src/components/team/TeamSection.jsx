@@ -9,16 +9,16 @@ import 'swiper/css/pagination';
 import Link from 'next/link';
 
 const universityCards = [
-  { src: '/assets/images/imageone.jpg',      title: 'Research Accepted at Kennesaw State University' },
-  { src: '/assets/images/imagetwo.jpg',      title: 'PhD Proposal Approved at Duke University' },
-  { src: '/assets/images/imagethree.webp',   title: 'Masters Research Submitted to Central Michigan University' },
-  { src: '/assets/images/victoriauni.webp',  title: 'Victoria University Accepted Dissertation Proposal' },
-  { src: '/assets/images/notheranuni.jpg',   title: 'Northern Illinois University Thesis Approval' },
-  { src: '/assets/images/californiauni.jpg', title: 'University of California Research Draft Cleared' },
-  { src: '/assets/images/miamiuni.jpg',      title: 'Miami University Research Supervision Secured' },
-  { src: '/assets/images/oxforduni.jpg',     title: 'Oxford University Research Application Reviewed' },
-  { src: '/assets/images/chicagouni.jpg',    title: 'Chicago University Proposal Endorsed' },
-  { src: '/assets/images/georgia.webp',      title: 'University of Georgia Research Plan Approved' },
+  { src: '/assets/images/images/imageone.jpg',      title: 'Research Accepted at Kennesaw State University' },
+  { src: '/assets/images/images/imagetwo.jpg',      title: 'PhD Proposal Approved at Duke University' },
+  { src: '/assets/images/images/imagethree.webp',   title: 'Masters Research Submitted to Central Michigan University' },
+  { src: '/assets/images/images/victoriauni.webp',  title: 'Victoria University Accepted Dissertation Proposal' },
+  { src: '/assets/images/images/notheranuni.jpg',   title: 'Northern Illinois University Thesis Approval' },
+  { src: '/assets/images/images/californiauni.jpg', title: 'University of California Research Draft Cleared' },
+  { src: '/assets/images/images/miamiuni.jpg',      title: 'Miami University Research Supervision Secured' },
+  { src: '/assets/images/images/oxforduni.jpg',     title: 'Oxford University Research Application Reviewed' },
+  { src: '/assets/images/images/chicagouni.jpg',    title: 'Chicago University Proposal Endorsed' },
+  { src: '/assets/images/images/georgia.webp',      title: 'University of Georgia Research Plan Approved' },
 ];
 
 export default function OurTeam() {

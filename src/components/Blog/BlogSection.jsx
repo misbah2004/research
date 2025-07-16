@@ -27,7 +27,7 @@ const BlogSection = () => {
             <div className="post-featured-image">
               <a href="blog-single.html" data-cursor-text="View">
                 <figure className="image-anime">
-                  <img src="/assets/images/blogimg1.jpg" alt="" />
+                  <img src="/assets/images/images/blogimg1.jpg" alt="" />
                 </figure>
               </a>
             </div>
@@ -52,7 +52,7 @@ const BlogSection = () => {
             <div className="post-featured-image">
               <a href="blog-single.html" data-cursor-text="View">
                 <figure className="image-anime">
-                  <img src="/assets/images/blogimg2.jpg" alt="" />
+                  <img src="/assets/images/images/blogimg2.jpg" alt="" />
                 </figure>
               </a>
             </div>
@@ -77,7 +77,7 @@ const BlogSection = () => {
             <div className="post-featured-image">
               <a href="blog-single.html" data-cursor-text="View">
                 <figure className="image-anime">
-                  <img src="/assets/images/blogimg3.jpeg" alt="" />
+                  <img src="/assets/images/images/blogimg3.jpeg" alt="" />
                 </figure>
               </a>
             </div>

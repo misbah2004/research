@@ -31,7 +31,7 @@ const ReactComponent = () => {
               {/* Post Featured Image Start */}
               <div className="post-image">
                 <figure className="image-anime">
-                  <img src="/assets/images/blgimg.jpg" alt="Skills Writing" />
+                  <img src="/assets/images/images/blgimg.jpg" alt="Skills Writing" />
                 </figure>
               </div>
               {/* Post Featured Image End */}

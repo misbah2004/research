@@ -38,7 +38,7 @@ const ServicesSection = () => {
             <div className="col-lg-4 col-md-6">
               <div className="service-item wow fadeInUp">
                 <div className="icon-box">
-                  <img src="/assets/images/card.png" alt="" />
+                  <img src="/assets/images/images/card.png" alt="" />
                 </div>
                 <div className="service-title-box">
                   <div className="service-title">
@@ -65,7 +65,7 @@ const ServicesSection = () => {
             <div className="col-lg-4 col-md-6">
               <div className="service-item wow fadeInUp">
                 <div className="icon-box">
-                  <img src="/assets/images/card.png" alt="" />
+                  <img src="/assets/images/images/card.png" alt="" />
                 </div>
                 <div className="service-title-box">
                   <div className="service-title">
@@ -92,7 +92,7 @@ const ServicesSection = () => {
             <div className="col-lg-4 col-md-6">
               <div className="service-item wow fadeInUp">
                 <div className="icon-box">
-                  <img src="/assets/images/card.png" alt="" />
+                  <img src="/assets/images/images/card.png" alt="" />
                 </div>
                 <div className="service-title-box">
                   <div className="service-title">
@@ -119,7 +119,7 @@ const ServicesSection = () => {
             <div className="col-lg-4 col-md-6">
               <div className="service-item wow fadeInUp">
                 <div className="icon-box">
-                  <img src="/assets/images/card.png" alt="" />
+                  <img src="/assets/images/images/card.png" alt="" />
                 </div>
                 <div className="service-title-box">
                   <div className="service-title">
@@ -146,7 +146,7 @@ const ServicesSection = () => {
             <div className="col-lg-4 col-md-6">
               <div className="service-item wow fadeInUp">
                 <div className="icon-box">
-                  <img src="/assets/images/card.png" alt="" />
+                  <img src="/assets/images/images/card.png" alt="" />
                 </div>
                 <div className="service-title-box">
                   <div className="service-title">
@@ -173,7 +173,7 @@ const ServicesSection = () => {
             <div className="col-lg-4 col-md-6">
               <div className="service-item wow fadeInUp">
                 <div className="icon-box">
-                  <img src="/assets/images/card.png" alt="" />
+                  <img src="/assets/images/images/card.png" alt="" />
                 </div>
                 <div className="service-title-box">
                   <div className="service-title">
@@ -202,7 +202,7 @@ const ServicesSection = () => {
             <div className="col-lg-4 col-md-6">
               <div className="service-item wow fadeInUp">
                 <div className="icon-box">
-                  <img src="/assets/images/card.png" alt="" />
+                  <img src="/assets/images/images/card.png" alt="" />
                 </div>
                 <div className="service-title-box">
                   <div className="service-title">
@@ -229,7 +229,7 @@ const ServicesSection = () => {
             <div className="col-lg-4 col-md-6">
               <div className="service-item wow fadeInUp">
                 <div className="icon-box">
-                  <img src="/assets/images/card.png" alt="" />
+                  <img src="/assets/images/images/card.png" alt="" />
                 </div>
                 <div className="service-title-box">
                   <div className="service-title">
