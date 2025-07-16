@@ -5676,10 +5676,10 @@ header.main-header .header-sticky.active{
 		flex-direction: column;
 	}
 
-	.security-image{
-		/* object-fit: cover; */
-		/* margin: 30px 0 0 0; */
-	}
+	/* .security-image{
+		object-fit: cover;
+		margin: 30px 0 0 0;
+	} */
 
 	.security-image figure{
 		/* object-fit: cover; */
