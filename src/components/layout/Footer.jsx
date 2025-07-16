@@ -50,17 +50,17 @@ const Footer = () => {
                   <ul>
                     <li>
                       <a href="https://www.linkedin.com/company/skilled-writing1/about/">
-                        <FaLinkedinIn />
+                        <FaLinkedinIn className="text-[#89a1c1]"/>
                       </a>
                     </li>
                     <li>
                       <a href="https://www.facebook.com/profile.php?id=61573807590248">
-                        <FaFacebookF />
+                        <FaFacebookF className="text-[#89a1c1]"/>
                       </a>
                     </li>
                     <li>
                       <a href="https://www.instagram.com/_skilledwriting?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-                        <FaInstagram />
+                        <FaInstagram className="text-[#89a1c1]"/>
                       </a>
                     </li>
                   </ul>

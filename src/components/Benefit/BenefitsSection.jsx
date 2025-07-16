@@ -49,7 +49,7 @@ const BenefitsSection = () => {
                   <div className="icon-box">
                     <svg
                       stroke="currentColor"
-                      fill="rgb(85, 206, 227)"
+                      fill="#c5e9f6"
                       strokeWidth="0"
                       viewBox="0 0 24 24"
                       height="10em"

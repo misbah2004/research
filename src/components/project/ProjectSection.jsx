@@ -30,6 +30,7 @@ const ProjectSection = () => {
               {/* Our Projects Box Start */}
               <div className="our-projeect-box">
                 {/* Projects List Start */}
+                
                 <div className="projects-list wow fadeInUp" data-wow-delay="0.4s">
                   {/* Step 1 */}
                   <div className="project-item">
@@ -127,6 +128,7 @@ const ProjectSection = () => {
                     </div>
                   </div>
                 </div>
+                
                 {/* Projects List End */}
 
                 {/* Optional Footer Text */}

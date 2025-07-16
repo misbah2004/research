@@ -5,13 +5,15 @@ import {
   FaChevronDown,
   FaWhatsapp,
 } from "react-icons/fa";
-import { servicesData } from "../../../public/assets/js/servicesdata";
+// import { servicesData } from "../../../public/assets/js/servicesdata";
 // import { Link } from "react-router";
 import Link from "next/link";
+import { servicesData } from "@/lib/servicesdata";
 
 
 
 const Header = () => {
+
   const [show , setShow]=useState(false)
   return (
     <>
