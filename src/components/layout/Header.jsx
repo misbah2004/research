@@ -7,14 +7,15 @@ import {
 } from "react-icons/fa";
 import { servicesData } from "../../../public/assets/js/servicesdata";
 // import { Link } from "react-router";
-
 import Link from "next/link";
+
+
 
 const Header = () => {
   const [show , setShow]=useState(false)
   return (
     <>
-      <header className="main-header">
+      <header className="main-header bg-[#f2f2f5]">
         <div className="header-sticky">
           <nav className="navbar navbar-expand-lg">
             <div className="container">
@@ -37,7 +38,7 @@ const Header = () => {
 
                     <li className="nav-item dropdown">
                       <Link className="nav-link !flex justify-center items-center" href="#">
-                        Services <FaChevronDown />
+                        Services <FaChevronDown className="h-[13px]" />
                       </Link>
                       <ul className="mega-dropdown">
                         {Object.keys(servicesData).map((title) => (
@@ -75,7 +76,7 @@ const Header = () => {
                 {/* Header Btn Start */}
                 <div className="header-btn">
                   <Link
-                    href="https://wa.me/+447554405359?text=Referral%20link%20website%3A%20www.skilledWritings.org%22"
+                    href="https://wa.me/+447440451891?text=Referral%20link%20website%3A%20www.skilledWritings.org%22"
                     className="btn-default !flex"
                   >
                     Whatsapp
@@ -135,6 +136,20 @@ const Header = () => {
                   >
                     Services
                   </Link>
+                  <ul className="mega-dropdown">
+                        {Object.keys(servicesData).map((title) => (
+                          <li className="nav-item" key={title}>
+                            <Link
+                              className="nav-link"
+                              href={`/services/${title}`}
+                            >
+                              {title}
+                            </Link>
+                          </li>
+                        ))}
+
+                        {/* You can add more items here */}
+                      </ul>
                 </li>
                 <li className="nav-item">
                   <Link

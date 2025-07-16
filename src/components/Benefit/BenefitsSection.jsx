@@ -16,9 +16,9 @@ const BenefitsSection = () => {
                   data-wow-delay="0.2s"
                   data-cursor="-opaque"
                 >
-                  <span>Exciting Benefits Which You</span>
+                  <span>Key Benefits of Our</span>
                   <br />
-                  <>Shouldn’t Overlook!!</>
+                  <>Research Proposal Services</>
                 </h2>
               </div>
               {/* Section Title End */}
@@ -26,19 +26,31 @@ const BenefitsSection = () => {
           </div>
           <div className="row">
             {[
-              { title: "Award Winning", subtitle: "Ideas" },
-              { title: "High Quality", subtitle: "Work" },
-              { title: "Direct Communication", subtitle: "With the Experts" },
-              { title: "Constant Assistance", subtitle: "24/7" }
+              {
+                title: "Customized Research Topics",
+                subtitle: "Based on Your Academic Needs",
+              },
+              {
+                title: "Plagiarism-Free Proposals",
+                subtitle: "100% Original & Properly Cited",
+              },
+              {
+                title: "Consult with Research Experts",
+                subtitle: "Get Expert Opinions at Every Stage",
+              },
+              {
+                title: "24/7 Support Availability",
+                subtitle: "From Drafting to Final Submission",
+              },
             ].map((item, index) => (
               <div className="col-lg-3 col-md-6" key={index}>
                 {/* Service Item Start */}
-                <div className="service-item wow fadeInUp">
+                <div className="service-item-benefit wow fadeInUp">
                   <div className="icon-box">
                     <svg
                       stroke="currentColor"
                       fill="rgb(85, 206, 227)"
-                      strokeWidth="0" // ✅ FIXED HERE
+                      strokeWidth="0"
                       viewBox="0 0 24 24"
                       height="10em"
                       width="10em"

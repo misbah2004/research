@@ -6,7 +6,7 @@ const SecuritySection = () => {
   return (
     <>
   {/* Our Security Section Start */}
-  <div className="our-security py-5">
+  <div className="our-security bg-[#f2f2f5] py-5">
     <div className="container">
       <div className="row">
         <div className="col-lg-6">
@@ -41,7 +41,7 @@ const SecuritySection = () => {
               </div>
               <div className="about-footer-btn">
                   <Link href="/contact" className="btn-default">
-                    Book Now
+                    Start Your Proposal Today
                   </Link>
                 </div>
               {/* Security Content Item End */}

@@ -36,18 +36,18 @@ const Topbar = () => {
             <div className="topbar-social-links">
               <ul>
                 <li>
-                  <a href="mailto:info@skilledwriting.co.uk">
+                  <a href="mailto:info@researchporposal.co.uk">
 
                     <FaEnvelope/>
                   </a>
                 </li>
                 <li>
-                  <a href="https://wa.me/+447554405359?text=Referral%20link%20website%3A%20www.skilledWritings.org">
+                  <a target='_blank' href="https://wa.me/+447440451891?text=Referral%20link%20website%3A%20www.skilledWritings.org">
                     <FaPhone/>
                   </a>
                 </li>
                 <li>
-                  <a href="https://wa.me/+447471095853?text=Referral%20link%20website%3A%20www.skilledWritings.org">
+                  <a target='_blank' href="https://wa.me/+447440451891?text=Referral%20link%20website%3A%20www.skilledWritings.org">
                     <FaWhatsapp/>
                   </a>
                 </li>

@@ -30,15 +30,15 @@ const Contact = () => {
       formToSend.append("lname", formData.lname);
       formToSend.append("email", formData.email);
       formToSend.append("phone", formData.pnum);
-      formToSend.append("website","skilled writting");
+      formToSend.append("website","ResearchPorposal");
 
-      const response = await fetch("https://skillwritingapi.dev-sh.xyz/api/contact", {
-        method: "POST",
-        headers: {
-          "Accept": "application/json",
-        },
-        body: formToSend,
-      });
+      // const response = await fetch("https://skillwritingapi.dev-sh.xyz/api/contact", {
+      //   method: "POST",
+      //   headers: {
+      //     "Accept": "application/json",
+      //   },
+      //   body: formToSend,
+      // });
 
       const data = await response.json();
       if(data.success){
@@ -104,7 +104,7 @@ const Contact = () => {
                     </div>
                     <div className="contact-info-content">
                       <h3>UK Call And WhatsApp</h3>
-                      <p><a href="tel:+44123456789">+44-123 456 789</a></p>
+                      <p><a target='_blank' href="tel:+447440451891">+44-7440451891</a></p>
                     </div>
                   </div>
 
@@ -115,8 +115,8 @@ const Contact = () => {
                     <div className="contact-info-content">
                       <h3>e-mail us</h3>
                       <p>
-                        <a href="mailto:info@skilledwriting.co.uk">
-                          info@skilledwriting.co.uk
+                        <a href="mailto:info@researchporposal.co.uk">
+                          info@researchporposal.co.uk
                         </a>
                       </p>
                     </div>
@@ -128,7 +128,7 @@ const Contact = () => {
                     </div>
                     <div className="contact-info-content">
                       <h3>WhatsApp Chat</h3>
-                      <p><a href="tel:+447471095853">+44 7471 095853</a></p>
+                      <p><a href="tel:+447440451891" target='_blank'>+44-7440451891</a></p>
                     </div>
                   </div>
                 </div>
