@@ -1267,7 +1267,7 @@ header.main-header .header-sticky.active{
 }
 
 .about-footer-list ul li{
-	background: url('../images/icon-check.svg') no-repeat;
+	background: url('/assets/images/images/icon-check.svg') no-repeat;
 	background-position: left top;
 	background-size: 24px auto;
 	line-height: 1.5em;
@@ -1984,7 +1984,7 @@ header.main-header .header-sticky.active{
 
 .security-list-item{
 	width: calc(33.33% - 20px);
-	background: url(../images/icon-check.svg) no-repeat;
+	background: url(/assets/images/images/icon-check.svg) no-repeat;
 	background-size: 26px auto;
 	background-position: top left;
 	padding-left: 35px;
@@ -2081,7 +2081,7 @@ header.main-header .header-sticky.active{
 }
 
 .pricing-list ul li{
-	background-image: url('../images/icon-check.svg');
+	background-image: url('/assets/images/images/icon-check.svg');
 	background-repeat: no-repeat;
 	background-position: top left;
 	background-size: 24px auto;
@@ -2467,7 +2467,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .our-team{
-	background-image: url('../images/our-team-bg.png'), radial-gradient( circle farthest-corner at 10% 20%,  rgba(202,248,255,1) 0%, rgba(186,204,227,1) 51.2%, rgba(117,144,179,1) 100.1% );
+	background-image: url('/assets/images/images/our-team-bg.png'), radial-gradient( circle farthest-corner at 10% 20%,  rgba(202,248,255,1) 0%, rgba(186,204,227,1) 51.2%, rgba(117,144,179,1) 100.1% );
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-size: 100% auto;
@@ -3175,7 +3175,7 @@ header.main-header .header-sticky.active{
 .our-approach{
 	position: relative;
 	padding: 100px 0;
-	background-image: url('../images/our-approach-bg.jpg');
+	background-image: url('/assets/images/images/our-approach-bg.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -3394,7 +3394,7 @@ header.main-header .header-sticky.active{
 }
 
 .what-we-do-body ul li{
-	background-image: url(../images/icon-check.svg);
+	background-image: url(/assets/images/images/icon-check.svg);
     background-repeat: no-repeat;
     background-position: top left;
     background-size: 24px auto;
@@ -3684,7 +3684,7 @@ header.main-header .header-sticky.active{
 }
 
 .benefit-footer-list ul li{
-	background-image: url(../images/icon-check.svg);
+	background-image: url(/assets/images/images/icon-check.svg);
     background-repeat: no-repeat;
     background-position: top left;
     background-size: 24px auto;
@@ -4010,7 +4010,7 @@ header.main-header .header-sticky.active{
 }
 
 .service-entry ul li{
-    background: url(../images/icon-check.svg) no-repeat;
+    background: url(/assets/images/images/icon-check.svg) no-repeat;
     background-position: top left;
     background-size: 24px auto;
     line-height: 1.5em;
@@ -4532,7 +4532,7 @@ header.main-header .header-sticky.active{
 
 .project-entry ul li{
 	width: 100%;
-    background: url(../images/icon-check.svg) no-repeat;
+    background: url(/assets/images/images/icon-check.svg) no-repeat;
     background-position: top left;
     background-size: 24px auto;
     line-height: 1.5em;
@@ -4868,7 +4868,7 @@ header.main-header .header-sticky.active{
 
 .team-single-list ul li{
 	width: calc(50% - 15px);
-    background: url(../images/icon-check.svg) no-repeat;
+    background: url(/assets/images/images/icon-check.svg) no-repeat;
     background-position: top left;
     background-size: 24px auto;
     line-height: 1.5em;
