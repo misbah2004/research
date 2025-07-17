@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-page-custom-font */
 /* eslint-disable @next/next/no-css-tags */
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -26,9 +27,9 @@ export default function RootLayout({ children }) {
       <head>
     {/* <link rel="icon" type="image/svg+xml" href="" /> */}
     {/* <link rel="shortcut icon" type="image/x-icon" href="/assets/images/icon.png" /> */}
-    {/* <link rel="preconnect" href="https://fonts.googleapis.com/" /> */}
-    {/* <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin /> */}
-    {/* <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&amp;display=swap"rel="stylesheet"/> */}
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet" />
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet" media="screen" />
     {/* <link href="/assets/css/slicknav.min.css" rel="stylesheet" /> */}
     {/* <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css" /> */}
