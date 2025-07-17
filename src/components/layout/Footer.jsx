@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import toast from "react-hot-toast";
 import React, { useState } from "react";
 import {
@@ -8,6 +8,7 @@ import {
   FaPaperPlane,
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import Image from "next/image";
 
 const Footer = () => {
   const [email, setEmail] = useState("");
@@ -50,17 +51,17 @@ const Footer = () => {
                   <ul>
                     <li>
                       <a href="https://www.linkedin.com/company/skilled-writing1/about/">
-                        <FaLinkedinIn className="text-[#89a1c1]"/>
+                        <FaLinkedinIn className="text-[#89a1c1]" />
                       </a>
                     </li>
                     <li>
                       <a href="https://www.facebook.com/profile.php?id=61573807590248">
-                        <FaFacebookF className="text-[#89a1c1]"/>
+                        <FaFacebookF className="text-[#89a1c1]" />
                       </a>
                     </li>
                     <li>
                       <a href="https://www.instagram.com/_skilledwriting?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-                        <FaInstagram className="text-[#89a1c1]"/>
+                        <FaInstagram className="text-[#89a1c1]" />
                       </a>
                     </li>
                   </ul>
@@ -72,11 +73,17 @@ const Footer = () => {
             {/* Newsletter Column */}
             <div className="col-lg-4">
               <div className="footer-links footer-newsletter-form">
-                <img src="/assets/images/images/reasearchporposal-logo-blue.webp" alt="logo" width={100} />
+                <Image
+                  src="/assets/images/images/reasearchporposal-logo-blue.webp"
+                  alt="logo"
+                  width={100}
+                  height={50} // yeh estimated hai, original height ka proportion rakhna zaroori hai
+                />
                 <h3>Subscribe to Research Tips:</h3>
                 <p>
-                  Get expert advice, academic resources, and insights into writing
-                  impactful research proposals—delivered weekly to your inbox.
+                  Get expert advice, academic resources, and insights into
+                  writing impactful research proposals—delivered weekly to your
+                  inbox.
                 </p>
                 <form onSubmit={handleSubmit}>
                   <div className="form-group">
@@ -102,9 +109,15 @@ const Footer = () => {
               <div className="footer-links footer-quick-links">
                 <h3>Quick Links</h3>
                 <ul>
-                  <li><a href="/">Home</a></li>
-                  <li><a href="/blog">Blog</a></li>
-                  <li><a href="/contact">Contact</a></li>
+                  <li>
+                    <a href="/">Home</a>
+                  </li>
+                  <li>
+                    <a href="/blog">Blog</a>
+                  </li>
+                  <li>
+                    <a href="/contact">Contact</a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -114,12 +127,30 @@ const Footer = () => {
               <div className="footer-links">
                 <h3>Research Services</h3>
                 <ul>
-                  <li><a href="/services/Essay%20Writing">Essay Writing</a></li>
-                  <li><a href="/services/Dissertation%20Writing">Dissertation Guidance</a></li>
-                  <li><a href="/services/Live%20Sessions">Live Sessions</a></li>
-                  <li><a href="/services/History">History</a></li>
-                  <li><a href="/services/Dissertation%20Support">Dissertation Support</a></li>
-                  <li><a href="/services/Project%20Report%20Writing">Academic Project Reports</a></li>
+                  <li>
+                    <a href="/services/Essay%20Writing">Essay Writing</a>
+                  </li>
+                  <li>
+                    <a href="/services/Dissertation%20Writing">
+                      Dissertation Guidance
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/services/Live%20Sessions">Live Sessions</a>
+                  </li>
+                  <li>
+                    <a href="/services/History">History</a>
+                  </li>
+                  <li>
+                    <a href="/services/Dissertation%20Support">
+                      Dissertation Support
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/services/Project%20Report%20Writing">
+                      Academic Project Reports
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -130,10 +161,16 @@ const Footer = () => {
                 <h3>Academic Newsletter</h3>
                 <ul>
                   <li>
-                    Subscribe for proposal templates, expert tips, and research trends—straight to your inbox.
+                    Subscribe for proposal templates, expert tips, and research
+                    trends—straight to your inbox.
                   </li>
                   <h3>We Accept</h3>
-                  <img src="/assets/images/images/payment.png" alt="Payments" />
+                  <Image
+                    src="/assets/images/images/payment.png"
+                    alt="Payments"
+                    width={300} // 👈 isay actual image ke according adjust karein
+                    height={100} // 👈 yeh bhi actual height ke hisaab se change karein
+                  />
                 </ul>
               </div>
             </div>

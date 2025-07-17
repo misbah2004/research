@@ -1,16 +1,17 @@
-'use client'
-import React, { useState } from 'react';
-import toast from 'react-hot-toast';
-import { FaWhatsapp } from 'react-icons/fa';
+"use client";
+import Image from "next/image";
+import React, { useState } from "react";
+import toast from "react-hot-toast";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
-  const [loading, setLoading] = useState(false)
-  const [submetSucess, setSubmetSuccess] = useState(false)
+  const [loading, setLoading] = useState(false);
+  const [submetSucess, setSubmetSuccess] = useState(false);
   const [formData, setFormData] = useState({
-    fname: '',
-    lname: '',
-    email: '',
-    pnum: '',
+    fname: "",
+    lname: "",
+    email: "",
+    pnum: "",
   });
 
   const handleChange = (e) => {
@@ -22,7 +23,7 @@ const Contact = () => {
   };
 
   const handleSubmit = async (e) => {
-    setLoading(true)
+    setLoading(true);
     e.preventDefault();
     try {
       // const formToSend = new FormData();
@@ -41,31 +42,36 @@ const Contact = () => {
       // });
 
       const data = await response.json();
-      if(data.success){
+      if (data.success) {
         setSubmetSuccess(true);
       }
       toast.success("Submit Successfully");
       setFormData({
-        fname: '',
-        lname: '',
-        email: '',
-        pnum: '',
+        fname: "",
+        lname: "",
+        email: "",
+        pnum: "",
       });
     } catch (error) {
       console.log("Form submit error", error);
-    }finally{
-      setLoading(false)
+    } finally {
+      setLoading(false);
     }
   };
 
   return (
     <>
-     {loading && (
+      {loading && (
         <div className="preloader1">
           <div className="loading-container">
             <div className="loading" />
             <div id="loading-icon">
-              <img src="/assets/images/icon.png" alt="Loading..." />
+              <Image
+                src="/assets/images/icon.png"
+                alt="Loading..."
+                width={100}
+                height={100}
+              />
             </div>
           </div>
         </div>
@@ -85,8 +91,6 @@ const Contact = () => {
         </div>
       </div>
       {/* Page Header End */}
-      
-
 
       <div className="page-contact-us">
         <div className="container">
@@ -100,17 +104,34 @@ const Contact = () => {
                 <div className="contact-info-list">
                   <div className="contact-info-item wow fadeInUp">
                     <div className="icon-box">
-                      <img src="/assets/images/images/icon-phone-accent.svg" alt="" />
+                      <Image
+                        src="/assets/images/images/icon-phone-accent.svg"
+                        alt="Phone Icon"
+                        width={32}
+                        height={32}
+                      />
                     </div>
                     <div className="contact-info-content">
                       <h3>UK Call And WhatsApp</h3>
-                      <p><a target='_blank' href="tel:+447440451891">+44-7440451891</a></p>
+                      <p>
+                        <a target="_blank" href="tel:+447440451891">
+                          +44-7440451891
+                        </a>
+                      </p>
                     </div>
                   </div>
 
-                  <div className="contact-info-item wow fadeInUp" data-wow-delay="0.2s">
+                  <div
+                    className="contact-info-item wow fadeInUp"
+                    data-wow-delay="0.2s"
+                  >
                     <div className="icon-box">
-                      <img src="/assets/images/images/icon-mail-accent.svg" alt="" />
+                      <Image
+                        src="/assets/images/images/icon-mail-accent.svg"
+                        alt=""
+                        width={32}
+                        height={32}
+                      />
                     </div>
                     <div className="contact-info-content">
                       <h3>e-mail us</h3>
@@ -122,13 +143,25 @@ const Contact = () => {
                     </div>
                   </div>
 
-                  <div className="contact-info-item wow fadeInUp" data-wow-delay="0.4s">
+                  <div
+                    className="contact-info-item wow fadeInUp"
+                    data-wow-delay="0.4s"
+                  >
                     <div className="icon-box">
-                      <img src="/assets/images/images/icon-phone-accent.svg" alt="" />
+                      <Image
+                        src="/assets/images/images/icon-phone-accent.svg"
+                        alt=""
+                        width={32}
+                        height={32}
+                      />
                     </div>
                     <div className="contact-info-content">
                       <h3>WhatsApp Chat</h3>
-                      <p><a href="tel:+447440451891" target='_blank'>+44-7440451891</a></p>
+                      <p>
+                        <a href="tel:+447440451891" target="_blank">
+                          +44-7440451891
+                        </a>
+                      </p>
                     </div>
                   </div>
                 </div>

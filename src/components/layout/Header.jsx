@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React, { useState } from "react";
 import {
   FaArrowAltCircleRight,
@@ -11,8 +11,7 @@ import Link from "next/link";
 import { servicesData } from "@/lib/servicesdata";
 
 const Header = () => {
-
-  const [show , setShow]=useState(false)
+  const [show, setShow] = useState(false);
   return (
     <>
       <header className="main-header bg-[#f2f2f5]">
@@ -20,11 +19,13 @@ const Header = () => {
           <nav className="navbar navbar-expand-lg">
             <div className="container">
               <Link className="navbar-brand" href="/">
-                <img src="/assets/images/images/reasearchporposal-logo-blue.webp"
-                 alt="Logo"
-                 className="object-contain"
-                
-                 />
+                <Image
+                  src="/assets/images/images/reasearchporposal-logo-blue.webp"
+                  alt="Logo"
+                  width={200} // Replace with actual width
+                  height={100} // Replace with actual height
+                  className="object-contain"
+                />
               </Link>
 
               <div className="hidden lg:block navbar-collapse main-menu">
@@ -32,12 +33,15 @@ const Header = () => {
                   <ul className="navbar-nav mr-auto" id="menu">
                     <li className="nav-item ">
                       <Link className="nav-link" href="/">
-                        Home 
+                        Home
                       </Link>
                     </li>
 
                     <li className="nav-item dropdown">
-                      <Link className="nav-link !flex justify-center items-center" href="#">
+                      <Link
+                        className="nav-link !flex justify-center items-center"
+                        href="#"
+                      >
                         Services <FaChevronDown className="h-[13px]" />
                       </Link>
                       <ul className="mega-dropdown">
@@ -92,8 +96,12 @@ const Header = () => {
                   aria-haspopup="true"
                   role="button"
                   tabIndex={0}
-                  onClick={()=>setShow(!show)}
-                  className={show ? "slicknav_btn slicknav_open" :"slicknav_btn slicknav_collapsed"}
+                  onClick={() => setShow(!show)}
+                  className={
+                    show
+                      ? "slicknav_btn slicknav_open"
+                      : "slicknav_btn slicknav_collapsed"
+                  }
                   style={{ outline: "none" }}
                 >
                   <span className="slicknav_menutxt" />
@@ -112,7 +120,7 @@ const Header = () => {
                 className="slicknav_nav slicknav_hidden"
                 aria-hidden="true"
                 role="menu"
-                style={{  display: show ? '': "none" }}
+                style={{ display: show ? "" : "none" }}
               >
                 <li className="nav-item submenu slicknav_collapsed slicknav_parent">
                   <Link
@@ -137,19 +145,16 @@ const Header = () => {
                     Services
                   </Link>
                   <ul className="mega-dropdown">
-                        {Object.keys(servicesData).map((title) => (
-                          <li className="nav-item" key={title}>
-                            <Link
-                              className="nav-link"
-                              href={`/services/${title}`}
-                            >
-                              {title}
-                            </Link>
-                          </li>
-                        ))}
+                    {Object.keys(servicesData).map((title) => (
+                      <li className="nav-item" key={title}>
+                        <Link className="nav-link" href={`/services/${title}`}>
+                          {title}
+                        </Link>
+                      </li>
+                    ))}
 
-                        {/* You can add more items here */}
-                      </ul>
+                    {/* You can add more items here */}
+                  </ul>
                 </li>
                 <li className="nav-item">
                   <Link

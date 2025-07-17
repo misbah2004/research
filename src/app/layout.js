@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
     {/* <link rel="icon" type="image/svg+xml" href="" /> */}
     {/* <link rel="shortcut icon" type="image/x-icon" href="/assets/images/icon.png" /> */}
     <link rel="preconnect" href="https://fonts.googleapis.com/" />
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    {/* <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin /> */}
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet" />
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet" media="screen" />
     {/* <link href="/assets/css/slicknav.min.css" rel="stylesheet" /> */}

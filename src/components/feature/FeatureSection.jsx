@@ -1,5 +1,6 @@
-import Link from 'next/link';
-import React from 'react';
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 
 const FeatureSection = () => {
   return (
@@ -13,7 +14,12 @@ const FeatureSection = () => {
               <div className="our-feature-images">
                 <div className="feature-image">
                   <figure className="image-anime">
-                    <img src="/assets/images/images/ordernowimg.webp" alt="" />
+                    <Image
+                      src="/assets/images/images/ordernowimg.webp"
+                      alt="Order Now"
+                      width={500} // apni image ki actual width daalain
+                      height={300} // aur height bhi
+                    />
                   </figure>
                 </div>
                 <div className="company-experience-info">
@@ -54,7 +60,10 @@ const FeatureSection = () => {
                         <li>Unlimited Revisions</li>
                       </p>
                       <div className="about-footer-btn">
-                        <Link href="/contact" className="btn-default ordernowbtn">
+                        <Link
+                          href="/contact"
+                          className="btn-default ordernowbtn"
+                        >
                           Order Now
                         </Link>
                       </div>
