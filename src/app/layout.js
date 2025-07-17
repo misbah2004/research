@@ -39,9 +39,7 @@ export default function RootLayout({ children }) {
     {/* <link rel="stylesheet" href="/assets/css/mousecursor.css" /> */}
     <link href="/assets/css/custom.css" rel="stylesheet" media="screen" />
   </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Topbar/>
       <Header/>
         {children}
