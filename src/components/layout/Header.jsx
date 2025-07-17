@@ -9,6 +9,7 @@ import {
 // import { Link } from "react-router";
 import Link from "next/link";
 import { servicesData } from "@/lib/servicesdata";
+import Image from "next/image";
 
 const Header = () => {
   const [show, setShow] = useState(false);
