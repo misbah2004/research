@@ -70,7 +70,6 @@ const PricingPlanSection = () => {
           </div>
         </div>
       </div>
-      {/* Our Security Section End */}
     </>
   );
 };
