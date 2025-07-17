@@ -40,7 +40,7 @@ const Footer = () => {
   return (
     <>
       {/* Main Footer Section Start */}
-      <footer className="main-footer">
+      <footer className="main-footer py-10">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -178,17 +178,17 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <div className="footer-copyright">
+        {/* <div className="footer-copyright">
           <div className="container">
             <div className="row">
               <div className="col-md-12">
                 <div className="footer-copyright-text">
-                  {/* <p>All Rights Reserved by researchproposals.org 2025</p> */}
+                  <p>All Rights Reserved by researchproposals.org 2025</p>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </footer>
       {/* Main Footer Section End */}
     </>
