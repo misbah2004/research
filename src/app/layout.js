@@ -35,7 +35,7 @@ export default function RootLayout({ children }) {
     <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css" />
     <link href="/assets/css/all.min.css" rel="stylesheet" media="screen" />
     <link href="/assets/css/animate.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/assets/css/magnific-popup.css" />
+    {/* <link rel="stylesheet" href="/assets/css/magnific-popup.css" /> */}
     {/* <link rel="stylesheet" href="/assets/css/mousecursor.css" /> */}
     <link href="/assets/css/custom.css" rel="stylesheet" media="screen" />
   </head>
