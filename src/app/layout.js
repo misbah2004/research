@@ -40,6 +40,7 @@ export default function RootLayout({ children }) {
     <link href="/assets/css/custom.css" rel="stylesheet" media="screen" />
   </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        
         <Topbar/>
       <Header/>
         {children}

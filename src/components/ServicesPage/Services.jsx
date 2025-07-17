@@ -27,8 +27,6 @@ const Services = () => {
                 systems, and peace of mind.
               </p>
             </div>
-            {/* Section Title End */}
-            {/* Hero Content Body Start */}
             <div
               className="hero-content-body wow fadeInUp"
               data-wow-delay="0.6s"
@@ -39,22 +37,7 @@ const Services = () => {
                   learn more
                 </a>
               </div>
-              {/* Hero Button End */}
-              {/* Video Play Button Start */}
-              {/* <div className="video-play-button">
-                <a
-                  href="https://www.youtube.com/watch?v=Y-x0efG1seA"
-                  className="popup-video"
-                  data-cursor-text="Play"
-                >
-                  <i className="fa-solid fa-play" />
-                </a>
-              </div> */}
-                {/* <h3>Play video</h3> */}
-              {/* Video Play Button End */}
             </div>
-            {/* Hero Content Body End */}
-            {/* Hero Content Footer Start */}
             <div className="hero-content-footer">
               {/* Hero List Start */}
               <div className="hero-list wow fadeInUp" data-wow-delay="0.8s">
@@ -74,56 +57,14 @@ const Services = () => {
                       <img src="images/client-image-1.jpg" alt="" />
                     </figure>
                   </div>
-                  {/* Client Image End */}
-                  {/* Client Image Start */}
-                  {/* <div className="client-image">
-                    <figure className="image-anime">
-                      <img src="images/client-image-2.jpg" alt="" />
-                    </figure>
-                  </div> */}
-                  {/* Client Image End */}
-                  {/* Client Image Start */}
-                  {/* <div className="client-image">
-                    <figure className="image-anime">
-                      <img src="images/client-image-3.jpg" alt="" />
-                    </figure>
-                  </div> */}
-                  {/* Client Image End */}
-                  {/* Client Image Start */}
-                  {/* <div className="client-image">
-                    <figure className="image-anime">
-                      <img src="images/client-image-4.jpg" alt="" />
-                    </figure>
-                  </div> */}
-                  {/* Client Image End */}
-                  {/* Add More Client Image Start */}
-                  {/* <div className="client-image client-counter">
-                    <h3>
-                      <span className="counter">25</span>k
-                    </h3>
-                  </div> */}
-                  {/* Add More Client Image End */}
                 </div>
-                {/* Our Client Image End */}
-                {/* Our Client Content Start */}
-                {/* <div className="our-client-content">
-                  <p>
-                    Our <span className="counter">20</span>k+ Satisficed
-                    Customer{" "}
-                  </p>
-                </div> */}
-                {/* Our Client Content End */}
               </div>
-              {/* Hero Client Box End */}
             </div>
-            {/* Hero Content Footer End */}
           </div>
-          {/* Hero Content End */}
         </div>
       </div>
     </div>
   </div>
-  {/* Hero Section End */}
 </>
 
     </>

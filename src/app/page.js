@@ -2,7 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 import AboutUsSection from "@/components/about/AboutUsSection";
 import BenefitsSection from "@/components/Benefit/BenefitsSection";
-import FaqsSection from "@/components/faqs/FaqsSection";
+// import FaqsSection from "@/components/faqs/FaqsSection";
 import FeatureSection from "@/components/feature/FeatureSection";
 import HomeHeroSection from "@/components/home/HomeHeroSection";
 import PricingPlanSection from "@/components/Pricing/PricingPlanSection";
