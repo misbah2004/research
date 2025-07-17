@@ -1038,7 +1038,7 @@ header.main-header .header-sticky.active{
 }
 
 .hero-list ul li{
-	background: url('../images/icon-check-white.svg') no-repeat;
+	background: url('/assets/images/images/icon-check-white.svg') no-repeat;
 	background-position: left top;
 	background-size: 24px auto;
 	line-height: 1.5em;
@@ -1776,7 +1776,7 @@ header.main-header .header-sticky.active{
 
 .why-choose-us{
 	padding: 100px 0;
-	background: url('../images/why-choose-bg.png'), var(--primary-color);
+	background: url('/assets/images/images/why-choose-bg.png'), var(--primary-color);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -2108,7 +2108,7 @@ header.main-header .header-sticky.active{
 }
 
 .pricing-item.highlighted-box .pricing-list ul li{
-	background-image: url('../images/icon-check-white.svg');
+	background-image: url('/assets/images/images/icon-check-white.svg');
 }
 
 .pricing-item.highlighted-box .btn-default.btn-highlighted:after{
@@ -2149,7 +2149,7 @@ header.main-header .header-sticky.active{
 	padding: 100px 0;
 }
 
-.testimonial-box{
+/* .testimonial-box{
 	position: relative;
 	background: url(../images/testimonial-bg.jpg) no-repeat;
 	background-size: cover;
@@ -2159,7 +2159,7 @@ header.main-header .header-sticky.active{
 	flex-wrap: wrap;
 	align-items: center;
 	gap: 40px 30px;
-}
+} */
 
 .testimonial-box::before{
 	content: '';
@@ -2655,7 +2655,7 @@ header.main-header .header-sticky.active{
     bottom: 10px;
     right: 0;
     transform: rotateY(180deg);
-    background: url(../images/cta-box-arrow.svg) no-repeat;
+    background: url("/assets/images/images/cta-box-arrow.svg") no-repeat;
 	background-position: right center;
     background-size: cover;
     animation: ctamovearrow 2s infinite linear alternate;
@@ -2934,7 +2934,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .main-footer{
-	background: url(../images/images/footer-bg.png), radial-gradient( circle farthest-corner at 10% 20%,  rgba(202,248,255,1) 0%, rgba(186,204,227,1) 51.2%, rgba(117,144,179,1) 100.1% );
+	background: url("/assets/images/images/footer-bg.png"), radial-gradient( circle farthest-corner at 10% 20%,  rgba(202,248,255,1) 0%, rgba(186,204,227,1) 51.2%, rgba(117,144,179,1) 100.1% );
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 100% auto;
@@ -4298,7 +4298,7 @@ header.main-header .header-sticky.active{
 }
 
 .post-entry blockquote{
-	background: url('../images/icon-blockquote.svg'), var(--primary-color);
+	background: url('/assets/images/images/icon-check-white.svg'), var(--primary-color);
 	background-repeat: no-repeat;
 	background-position: 35px 25px;
     background-size: 55px;
