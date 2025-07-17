@@ -43,7 +43,6 @@ const ProjectSection = () => {
                     <div className="project-image">
                       <a href="#" data-cursor-text="View">
                         <figure className="image-anime">
-                          import Image from 'next/image';
                           <Image
                             src="/assets/images/images/eduone.webp"
                             alt="Educational Project Image"
