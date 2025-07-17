@@ -168,8 +168,8 @@ const Footer = () => {
                   <Image
                     src="/assets/images/images/payment.webp"
                     alt="Payments"
-                    width={300} // 👈 isay actual image ke according adjust karein
-                    height={100} // 👈 yeh bhi actual height ke hisaab se change karein
+                    width={300} 
+                    height={100}
                   />
                 </ul>
               </div>
