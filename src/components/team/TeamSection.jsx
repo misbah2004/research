@@ -10,13 +10,13 @@ import Link from 'next/link';
 
 const universityCards = [
   { src: '/assets/images/images/imageone.webp',      title: 'Research Accepted at Kennesaw State University' },
-  { src: '/assets/images/images/imagetwo.jpg',      title: 'PhD Proposal Approved at Duke University' },
+  { src: '/assets/images/images/imagetwo.webp',      title: 'PhD Proposal Approved at Duke University' },
   { src: '/assets/images/images/imagethree.webp',   title: 'Masters Research Submitted to Central Michigan University' },
   { src: '/assets/images/images/victoriauni.webp',  title: 'Victoria University Accepted Dissertation Proposal' },
-  { src: '/assets/images/images/notheranuni.jpg',   title: 'Northern Illinois University Thesis Approval' },
+  { src: '/assets/images/images/notheranuni.webp',   title: 'Northern Illinois University Thesis Approval' },
   { src: '/assets/images/images/californiauni.webp', title: 'University of California Research Draft Cleared' },
-  { src: '/assets/images/images/miamiuni.jpg',      title: 'Miami University Research Supervision Secured' },
-  { src: '/assets/images/images/oxforduni.jpg',     title: 'Oxford University Research Application Reviewed' },
+  { src: '/assets/images/images/miamiuni.webp',      title: 'Miami University Research Supervision Secured' },
+  { src: '/assets/images/images/oxforduni.webp',     title: 'Oxford University Research Application Reviewed' },
   { src: '/assets/images/images/chicagouni.webp',    title: 'Chicago University Proposal Endorsed' },
   { src: '/assets/images/images/georgia.webp',      title: 'University of Georgia Research Plan Approved' },
 ];
