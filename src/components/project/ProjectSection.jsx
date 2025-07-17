@@ -1,4 +1,5 @@
-import React from 'react';
+import Image from "next/image";
+import React from "react";
 
 const ProjectSection = () => {
   return (
@@ -18,7 +19,9 @@ const ProjectSection = () => {
                   Get Your Research Proposal in 4 Easy Steps
                 </h2>
                 <div className="clicktxt">
-                  <h3 className="wow fadeInUp">You’re Just a Few Clicks Away</h3>
+                  <h3 className="wow fadeInUp">
+                    You’re Just a Few Clicks Away
+                  </h3>
                 </div>
               </div>
               {/* Section Title End */}
@@ -30,14 +33,24 @@ const ProjectSection = () => {
               {/* Our Projects Box Start */}
               <div className="our-projeect-box">
                 {/* Projects List Start */}
-                
-                <div className="projects-list wow fadeInUp" data-wow-delay="0.4s">
+
+                <div
+                  className="projects-list wow fadeInUp"
+                  data-wow-delay="0.4s"
+                >
                   {/* Step 1 */}
                   <div className="project-item">
                     <div className="project-image">
                       <a href="#" data-cursor-text="View">
                         <figure className="image-anime">
-                          <img src="/assets/images/images/eduone.webp" alt="" />
+                          import Image from 'next/image';
+                          <Image
+                            src="/assets/images/images/eduone.webp"
+                            alt="Educational Project Image"
+                            width={500}
+                            height={300}
+                            priority={false}
+                          />
                         </figure>
                       </a>
                     </div>
@@ -50,7 +63,8 @@ const ProjectSection = () => {
                       </h3>
                       <h6>
                         <span>
-                          Tell us your research proposal needs, including topic, deadline, and academic level.
+                          Tell us your research proposal needs, including topic,
+                          deadline, and academic level.
                         </span>
                       </h6>
                     </div>
@@ -61,7 +75,13 @@ const ProjectSection = () => {
                     <div className="project-image">
                       <a href="#" data-cursor-text="View">
                         <figure className="image-anime">
-                          <img src="/assets/images/images/edutwo.webp" alt="" />
+                          <Image
+                            src="/assets/images/images/edutwo.webp"
+                            alt="Educational Project Image 2"
+                            width={500}
+                            height={300}
+                            priority={false}
+                          />
                         </figure>
                       </a>
                     </div>
@@ -74,7 +94,8 @@ const ProjectSection = () => {
                       </h3>
                       <h6 className="psech1">
                         <span>
-                          Our research experts will review your requirements and suggest the best approach.
+                          Our research experts will review your requirements and
+                          suggest the best approach.
                         </span>
                       </h6>
                     </div>
@@ -85,7 +106,13 @@ const ProjectSection = () => {
                     <div className="project-image">
                       <a href="#" data-cursor-text="View">
                         <figure className="image-anime">
-                          <img src="/assets/images/images/eduthree.webp" alt="" />
+                          <Image
+                            src="/assets/images/images/eduthree.webp"
+                            alt="Educational Project Image 3"
+                            width={500}
+                            height={300}
+                            priority={false}
+                          />
                         </figure>
                       </a>
                     </div>
@@ -98,7 +125,8 @@ const ProjectSection = () => {
                       </h3>
                       <h6>
                         <span>
-                          Select the expert who best matches your academic field and topic requirements.
+                          Select the expert who best matches your academic field
+                          and topic requirements.
                         </span>
                       </h6>
                     </div>
@@ -109,7 +137,13 @@ const ProjectSection = () => {
                     <div className="project-image">
                       <a href="#" data-cursor-text="View">
                         <figure className="image-anime">
-                          <img src="/assets/images/images/eduforu.webp" alt="" />
+                          <Image
+                            src="/assets/images/images/eduforu.webp"
+                            alt="Educational Project Image 4"
+                            width={500}
+                            height={300}
+                            priority={false}
+                          />
                         </figure>
                       </a>
                     </div>
@@ -122,13 +156,14 @@ const ProjectSection = () => {
                       </h3>
                       <h6>
                         <span>
-                          Once approved, make payment and get a polished, ready-to-submit research proposal.
+                          Once approved, make payment and get a polished,
+                          ready-to-submit research proposal.
                         </span>
                       </h6>
                     </div>
                   </div>
                 </div>
-                
+
                 {/* Projects List End */}
 
                 {/* Optional Footer Text */}

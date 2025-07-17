@@ -44,14 +44,11 @@ export default function Home() {
      <HomeHeroSection />
       <ServicesSection />
       <ProjectSection />
-      {/* <FaqsSection /> */}
       <SecuritySection />
       <FeatureSection />
       <BenefitsSection/>
       <PricingPlanSection />
-      <TeamSection />
-      <AboutUsSection />
-    
+      <div className="py-5"><TeamSection /></div>
     </>
   );
 }

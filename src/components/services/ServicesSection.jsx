@@ -1,6 +1,7 @@
-import Link from 'next/link';
-import React from 'react';
-import { FaArrowRight } from 'react-icons/fa';
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
+import { FaArrowRight } from "react-icons/fa";
 
 // Service data array
 const servicesData = [
@@ -64,12 +65,20 @@ const ServicesSection = () => {
             <div className="col-lg-12">
               {/* Section Title Start */}
               <div className="section-title">
-                <h2 className="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">
-                  <span>Get Professional Help with Your Research Proposal </span>
+                <h2
+                  className="wow fadeInUp"
+                  data-wow-delay="0.2s"
+                  data-cursor="-opaque"
+                >
+                  <span>
+                    Get Professional Help with Your Research Proposal{" "}
+                  </span>
                   <br />
                   <div className="asigmenttxt">
                     <h6>
-                      From topic selection to methodology structuring—our experts help you create a compelling and academically sound research proposal.
+                      From topic selection to methodology structuring—our
+                      experts help you create a compelling and academically
+                      sound research proposal.
                     </h6>
                   </div>
                 </h2>
@@ -84,7 +93,15 @@ const ServicesSection = () => {
               <div className="col-lg-4 col-md-6" key={index}>
                 <div className="service-item wow fadeInUp">
                   <div className="icon-box">
-                    <img src={service.image} alt={service.title} />
+                    <Image
+                      src={service.image}
+                      alt={service.title}
+                      width={500} // or any appropriate width
+                      height={300} // or any appropriate height
+                      layout="responsive" // OR remove width/height and use fill/layout
+                      quality={75} // optional
+                      priority={false} // set to true if above the fold
+                    />
                   </div>
                   <div className="service-title-box">
                     <div className="service-title">
