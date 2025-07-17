@@ -25,12 +25,12 @@ const Contact = () => {
     setLoading(true)
     e.preventDefault();
     try {
-      const formToSend = new FormData();
-      formToSend.append("fname", formData.fname);
-      formToSend.append("lname", formData.lname);
-      formToSend.append("email", formData.email);
-      formToSend.append("phone", formData.pnum);
-      formToSend.append("website","ResearchPorposal");
+      // const formToSend = new FormData();
+      // formToSend.append("fname", formData.fname);
+      // formToSend.append("lname", formData.lname);
+      // formToSend.append("email", formData.email);
+      // formToSend.append("phone", formData.pnum);
+      // formToSend.append("website","ResearchPorposal");
 
       // const response = await fetch("https://skillwritingapi.dev-sh.xyz/api/contact", {
       //   method: "POST",
