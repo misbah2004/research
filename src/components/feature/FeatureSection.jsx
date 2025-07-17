@@ -13,7 +13,7 @@ const FeatureSection = () => {
               <div className="our-feature-images">
                 <div className="feature-image">
                   <figure className="image-anime">
-                    <img src="/assets/images/images/ordernowimg.jpg" alt="" />
+                    <img src="/assets/images/images/ordernowimg.webp" alt="" />
                   </figure>
                 </div>
                 <div className="company-experience-info">

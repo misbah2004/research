@@ -870,7 +870,7 @@ header.main-header .header-sticky.active{
 
 .hero{
 	position: relative;
-	background: url('/assets/images/images/HeroBg.jpg');
+	background: url('/assets/images/images/HeroBg.webp');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -3112,7 +3112,7 @@ header.main-header .header-sticky.active{
 
 .page-header{
 	position: relative;
-	background-image: url('/assets/images/images/HeroBg.jpg');
+	background-image: url('/assets/images/images/HeroBg.webp');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -5075,7 +5075,7 @@ header.main-header .header-sticky.active{
 .page-contact-box{
 	position: relative;
 	padding: 0 120px 120px 120px;
-	background: url('/assets/images/images/HeroBg.jpg') no-repeat;
+	background: url('/assets/images/images/HeroBg.webp') no-repeat;
 	background-position: center center;
 	background-size: cover;
 	border: 1px solid var(--divider-color);

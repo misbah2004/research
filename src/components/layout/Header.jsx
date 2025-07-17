@@ -10,8 +10,6 @@ import {
 import Link from "next/link";
 import { servicesData } from "@/lib/servicesdata";
 
-
-
 const Header = () => {
 
   const [show , setShow]=useState(false)
@@ -22,7 +20,7 @@ const Header = () => {
           <nav className="navbar navbar-expand-lg">
             <div className="container">
               <Link className="navbar-brand" href="/">
-                <img src="/assets/images/images/reasearchporposal-logo-blue.png"
+                <img src="/assets/images/images/reasearchporposal-logo-blue.webp"
                  alt="Logo"
                  className="object-contain"
                 

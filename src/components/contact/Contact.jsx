@@ -100,7 +100,7 @@ const Contact = () => {
                 <div className="contact-info-list">
                   <div className="contact-info-item wow fadeInUp">
                     <div className="icon-box">
-                      <img src="/assets/images/icon-phone-accent.svg" alt="" />
+                      <img src="/assets/images/images/icon-phone-accent.svg" alt="" />
                     </div>
                     <div className="contact-info-content">
                       <h3>UK Call And WhatsApp</h3>
@@ -110,7 +110,7 @@ const Contact = () => {
 
                   <div className="contact-info-item wow fadeInUp" data-wow-delay="0.2s">
                     <div className="icon-box">
-                      <img src="/assets/images/icon-mail-accent.svg" alt="" />
+                      <img src="/assets/images/images/icon-mail-accent.svg" alt="" />
                     </div>
                     <div className="contact-info-content">
                       <h3>e-mail us</h3>
@@ -124,7 +124,7 @@ const Contact = () => {
 
                   <div className="contact-info-item wow fadeInUp" data-wow-delay="0.4s">
                     <div className="icon-box">
-                      <img src="/assets/images/icon-phone-accent.svg" alt="" />
+                      <img src="/assets/images/images/icon-phone-accent.svg" alt="" />
                     </div>
                     <div className="contact-info-content">
                       <h3>WhatsApp Chat</h3>

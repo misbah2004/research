@@ -63,7 +63,7 @@ const SecuritySection = () => {
             {/* Security Image Start */}
             <div className="security-image order-lg-1 order-2">
               <figure className="image-anime ">
-                <img src="/assets/images/images/bookyourapointmint.png" alt="" />
+                <img src="/assets/images/images/bookyourapointmint.webp" alt="" />
               </figure>
             </div>
             {/* Security Image End */}

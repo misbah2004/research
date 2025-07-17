@@ -37,7 +37,7 @@ const ProjectSection = () => {
                     <div className="project-image">
                       <a href="#" data-cursor-text="View">
                         <figure className="image-anime">
-                          <img src="/assets/images/images/eduone.jpg" alt="" />
+                          <img src="/assets/images/images/eduone.webp" alt="" />
                         </figure>
                       </a>
                     </div>
@@ -61,7 +61,7 @@ const ProjectSection = () => {
                     <div className="project-image">
                       <a href="#" data-cursor-text="View">
                         <figure className="image-anime">
-                          <img src="/assets/images/images/edutwo.jpg" alt="" />
+                          <img src="/assets/images/images/edutwo.webp" alt="" />
                         </figure>
                       </a>
                     </div>
@@ -85,7 +85,7 @@ const ProjectSection = () => {
                     <div className="project-image">
                       <a href="#" data-cursor-text="View">
                         <figure className="image-anime">
-                          <img src="/assets/images/images/eduthree.jpg" alt="" />
+                          <img src="/assets/images/images/eduthree.webp" alt="" />
                         </figure>
                       </a>
                     </div>
@@ -109,7 +109,7 @@ const ProjectSection = () => {
                     <div className="project-image">
                       <a href="#" data-cursor-text="View">
                         <figure className="image-anime">
-                          <img src="/assets/images/images/eduforu.jpg" alt="" />
+                          <img src="/assets/images/images/eduforu.webp" alt="" />
                         </figure>
                       </a>
                     </div>

@@ -72,7 +72,7 @@ const Footer = () => {
             {/* Newsletter Column */}
             <div className="col-lg-4">
               <div className="footer-links footer-newsletter-form">
-                <img src="/assets/images/images/reasearchporposal-logo-blue.png" alt="logo" width={100} />
+                <img src="/assets/images/images/reasearchporposal-logo-blue.webp" alt="logo" width={100} />
                 <h3>Subscribe to Research Tips:</h3>
                 <p>
                   Get expert advice, academic resources, and insights into writing

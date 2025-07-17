@@ -1,6 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-/* eslint-disable react/no-unescaped-entities */
-import Image from 'next/image'
 import React from 'react'
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
@@ -34,7 +32,7 @@ const ReactComponent = () => {
               {/* Post Featured Image Start */}
               <div className="post-image">
                 <figure className="image-anime">
-                  <img src="/assets/images/blgimg.jpg" alt="Skills Writing" />
+                  <img src="/assets/images/images/blgimg.webp" alt="" />
                 </figure>
               </div>
               {/* Post Featured Image End */}
@@ -51,7 +49,7 @@ const ReactComponent = () => {
                   </p>
                   <blockquote className="wow fadeInUp" data-wow-delay="0.4s">
                     <p>
-                      Whether you're building a resume, a portfolio, or an online profile, we make sure your skills shine with confidence and clarity. Let your words work as hard as you do.
+                      Whether you re building a resume, a portfolio, or an online profile, we make sure your skills shine with confidence and clarity. Let your words work as hard as you do.
                     </p>
                   </blockquote>
                   <p className="wow fadeInUp" data-wow-delay="0.6s">
@@ -61,7 +59,7 @@ const ReactComponent = () => {
                     What We Offer
                   </h2>
                   <p className="wow fadeInUp" data-wow-delay="1s">
-                    We offer custom skills writing services for a variety of purposes. Whether you're targeting a specific job, industry, or niche, we tailor your content accordingly.
+                    We offer custom skills writing services for a variety of purposes. Whether you re targeting a specific job, industry, or niche, we tailor your content accordingly.
                   </p>
                   <ul className="wow fadeInUp" data-wow-delay="1.2s">
                     <li>
