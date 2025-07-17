@@ -183,7 +183,7 @@ const Footer = () => {
             <div className="row">
               <div className="col-md-12">
                 <div className="footer-copyright-text">
-                  <p>All Rights Reserved by researchproposals.org 2025</p>
+                  {/* <p>All Rights Reserved by researchproposals.org 2025</p> */}
                 </div>
               </div>
             </div>
