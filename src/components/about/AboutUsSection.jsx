@@ -14,7 +14,6 @@ const AboutUsSection = ({ service }) => {
                   <span>{pageTitle}</span>
                 </h2> */}
               </div>
-
               {/* Content Sections */}
               <div className="security-content-box">
                 {contentSections ? (

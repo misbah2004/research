@@ -77,7 +77,7 @@ const Contact = () => {
             <div className="col-lg-12">
               <div className="page-header-box">
                 <h1 className="wow fadeInUp" data-cursor="-opaque">
-                  Contact us
+                  Contact Us
                 </h1>
               </div>
             </div>
