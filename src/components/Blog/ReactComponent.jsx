@@ -32,7 +32,7 @@ const ReactComponent = () => {
               <div className="post-image">
                 <figure className="image-anime">
                   <Image
-                    src="/assets/images/images/eduforu.jpg"
+                    src="/assets/images/images/eduforu.webp"
                     alt="Skills Writing"
                     width={600}
                     height={400}

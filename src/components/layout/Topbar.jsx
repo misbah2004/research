@@ -7,7 +7,6 @@ import { FaT, FaXTwitter } from 'react-icons/fa6'
 const Topbar = () => {
   return (
     <div>
-      <>
   {/* Topbar Section Start */}
   <div className="topbar">
     <div className="container">
@@ -61,7 +60,6 @@ const Topbar = () => {
     </div>
   </div>
   {/* Topbar Section End */}
-</>
 
     </div>
   )

@@ -40,7 +40,7 @@ const Footer = () => {
   return (
     <>
       {/* Main Footer Section Start */}
-      <footer className="main-footer py-10">
+      <footer className="main-footer">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -166,7 +166,7 @@ const Footer = () => {
                   </li>
                   <h3>We Accept</h3>
                   <Image
-                    src="/assets/images/images/payment.png"
+                    src="/assets/images/images/payment.webp"
                     alt="Payments"
                     width={300} // 👈 isay actual image ke according adjust karein
                     height={100} // 👈 yeh bhi actual height ke hisaab se change karein
@@ -178,17 +178,17 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        {/* <div className="footer-copyright">
+        <div className="footer-copyright">
           <div className="container">
             <div className="row">
               <div className="col-md-12">
                 <div className="footer-copyright-text">
-                  <p>All Rights Reserved by researchproposals.org 2025</p>
+                 <p>All rights reserved by ResearchProposals.org © 2025</p>
                 </div>
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
       </footer>
       {/* Main Footer Section End */}
     </>

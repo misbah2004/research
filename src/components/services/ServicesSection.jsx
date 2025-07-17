@@ -9,7 +9,7 @@ const servicesData = [
     title: "Research Proposal Drafting",
     description:
       "We’ll help you craft a powerful, clear research proposal from scratch—tailored to your academic field and objectives.",
-    image: "/assets/images/images/card.png",
+    image: "/assets/images/images/card.webp",
   },
   {
     title: "Literature Review Assistance",
@@ -21,37 +21,37 @@ const servicesData = [
     title: "Proposal Editing & Proofreading",
     description:
       "Get your proposal professionally reviewed for clarity, coherence, formatting and flawless grammar.",
-    image: "/assets/images/images/card.png",
+    image: "/assets/images/images/card.webp",
   },
   {
     title: "Methodology & Framework Help",
     description:
       "We guide you in selecting robust research methods and theoretical frameworks aligned with your objectives.",
-    image: "/assets/images/images/card.png",
+    image: "/assets/images/images/card.webp",
   },
   {
     title: "Topic Selection & Refinement",
     description:
       "Choose a research‑worthy topic and refine it into a sharp, focused proposal question or hypothesis.",
-    image: "/assets/images/images/card.png",
+    image: "/assets/images/images/card.webp",
   },
   {
     title: "Proposal Formatting (APA/MLA)",
     description:
       "Ensure your proposal meets every institutional requirement, citation style, and formatting guideline.",
-    image: "/assets/images/images/card.png",
+    image: "/assets/images/images/card.webp",
   },
   {
     title: "Proposal Presentation Slides",
     description:
       "Impress reviewers with a concise, visually engaging slide deck that highlights your proposal’s key points.",
-    image: "/assets/images/images/card.png",
+    image: "/assets/images/images/card.webp",
   },
   {
     title: "One‑on‑One Consultation",
     description:
       "Schedule dedicated time with a research expert to review, critique and strengthen every aspect of your proposal.",
-    image: "/assets/images/images/card.png",
+    image: "/assets/images/images/card.webp",
   },
 ];
 
